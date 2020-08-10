@@ -7,6 +7,22 @@
   max-width: 80%;
 }
 
+.messageBoxCurrentUser {
+  /* background-color: #828282; */
+}
+
+.messageBoxSecondUser {
+  /* background-color: aqua; */
+}
+
+.messageContainerCurrentUser {
+  /* background-color: #828282; */
+}
+
+.messageContainerSecondUser {
+  /* background-color: aqua; */
+}
+
 .messageText {
   width: 100%;
   letter-spacing: 0;
@@ -59,7 +75,7 @@
 }
 
 .backgroundBlue {
-  background: #2979ff;
+  background: #ff9629;
 }
 
 .backgroundLight {
