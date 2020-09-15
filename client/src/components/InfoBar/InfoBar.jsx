@@ -12,7 +12,7 @@ const InfoBar = ({ room }) => {
         <img className="onlineIcon" src={onlineIcon} alt="Online Icon" />
         <h3>{room}</h3>
       </div>
-      <a className="inviteFriend" target="_blank" href={`/chat?name=InvitedFriend&room=${room}`}>invite friend</a>
+      <a className="inviteFriend" rel="noopener noreferrer" target="_blank" href={`/chat?name=InvitedFriend&room=${room}`}>invite friend</a>
       <div className="rightInnerContainer">
         <a href="/">
           <img src={closeIcon} alt="Close icon" />
